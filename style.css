@@ -9,12 +9,18 @@
   background-color: #0e1421;
   color: white;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
 .nav-logo {
   height: 50px;
   width: 100px;
+  border: 1.5px solid transparent;
+}
+
+.nav-logo:hover {
+  border: 1.5px solid white;
 }
 
 .logo {
@@ -26,6 +32,7 @@
 
 .border {
   border: 1.5px solid transparent;
+  padding: 5px 10px;
 }
 
 .border:hover {
@@ -33,10 +40,7 @@
 }
 
 /* box 2 */
-.nav-address {
-  margin: 5px 2px 5px 0px;
-  padding: 0px 9px;
-}
+
 
 .add-first {
   color: #cccccc;
@@ -47,6 +51,7 @@
 .add-second {
   font-size: 1em;
   margin-left: 3px;
+  font-weight: bold;
 }
 
 .add-icon {
@@ -60,6 +65,11 @@
   height: 40px;
   border-radius: 4px;
   justify-content: space-evenly;
+  border: 2px solid transparent;
+}
+
+.nav-search:hover {
+  border: 2px solid orange;
 }
 
 .search-select {
@@ -101,4 +111,34 @@
 
 .search-icon:active {
   background-color: #e98808;
+}
+
+/* box 4 */
+
+span {
+  font-size: 0.85em;
+}
+
+.nav-second {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* box 5 */
+
+.cart {
+  display: flex;
+  margin-right: 20px;
+}
+
+.cart-first{
+  font-size:27px;
+  display: flex;
+  align-items: center;
+}
+
+.cart-second {
+  font-weight: bold;
+  font-size: 1em;
+  padding-top: 0.9em;
 }
