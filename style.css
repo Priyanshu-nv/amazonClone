@@ -212,6 +212,11 @@ span {
   text-decoration: none;
 }
 
+.hero-msg a:hover {
+  color: #e98808;
+  text-decoration: underline;
+}
+
 /* shop-section */
 
 .box {
