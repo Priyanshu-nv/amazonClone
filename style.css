@@ -4,10 +4,6 @@
   border: border-box;
 }
 
-body {
-  padding-bottom: 500px;
-}
-
 .navbar {
   height: 60px;
   background-color: #0e1421;
